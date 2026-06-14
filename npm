@@ -1,0 +1,2 @@
+npm config set proxy http://your-proxy-server:port
+npm config set https-proxy http://your-proxy-server:port

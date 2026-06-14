@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "2658a8c2-5a08-4624-8b62-009898de5af1",
+  "packageName": "com.pauzircc.app",
+  "developer": {
+    "name": "PauziRCC App",
+    "websiteUrl": "https://localhost:3000",
+    "privacyUrl": "https://localhost:3000/privacy.html",
+    "termsOfUseUrl": "https://localhost:3000/terms.html"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "PauziRCC",
+    "full": "PauziRCC - Team Break Management"
+  },
+  "description": {
+    "short": "Manage team breaks efficiently.",
+    "full": "Pauzi is a team break management system that allows agents to schedule and track their breaks within Microsoft Teams."
+  },
+  "accentColor": "#0078D4",
+  "staticTabs": [
+    {
+      "entityId": "pauzirccTab",
+      "name": "PauziRCC",
+      "contentUrl": "https://localhost:3000/teams/index.html",
+      "websiteUrl": "https://localhost:3000",
+      "scopes": ["personal", "team", "groupchat"]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": ["localhost"]
+}

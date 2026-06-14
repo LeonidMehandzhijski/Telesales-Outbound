@@ -1,0 +1,612 @@
+[debug] [2026-03-13T13:30:50.810Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:30:50.825Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-03-13T13:30:50.826Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:30:50.827Z] Platform:      win32
+[debug] [2026-03-13T13:30:50.827Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:30:50.828Z] Time:          Fri Mar 13 2026 14:30:50 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:30:50.829Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\leonid.mehandzhijski\OneDrive - A1 Telekom Austria AG\Desktop\Telesales Outbound\A1-Pauzi-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-03-13T13:31:14.293Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:31:14.294Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:31:14.298Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:31:14.299Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:31:14.303Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T13:31:14.508Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: getaddrinfo ENOENT firebase.googleapis.com
+[debug] [2026-03-13T13:31:14.509Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi (original: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: getaddrinfo ENOENT firebase.googleapis.com)
+[debug] [2026-03-13T13:31:14.547Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi
+    at RetryOperation._fn (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\apiv2.js:282:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project telesalesoutboundpauzi. Please make sure the project exists and your account has permission to access it.
+[debug] [2026-03-13T13:32:02.192Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:32:02.201Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-03-13T13:32:02.203Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:32:02.203Z] Platform:      win32
+[debug] [2026-03-13T13:32:02.204Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:32:02.205Z] Time:          Fri Mar 13 2026 14:32:02 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:32:02.206Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\leonid.mehandzhijski\OneDrive - A1 Telekom Austria AG\Desktop\Telesales Outbound\A1-Pauzi-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-03-13T13:32:21.614Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:32:21.614Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:32:21.618Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:32:21.618Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:32:21.622Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T13:32:21.770Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: getaddrinfo ENOENT firebase.googleapis.com
+[debug] [2026-03-13T13:32:21.771Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi (original: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: getaddrinfo ENOENT firebase.googleapis.com)
+[debug] [2026-03-13T13:32:21.798Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi
+    at RetryOperation._fn (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\apiv2.js:282:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project telesalesoutboundpauzi. Please make sure the project exists and your account has permission to access it.
+[debug] [2026-03-13T13:37:05.683Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:37:05.702Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-13T13:37:05.702Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:37:05.703Z] Platform:      win32
+[debug] [2026-03-13T13:37:05.703Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:37:05.704Z] Time:          Fri Mar 13 2026 14:37:05 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:37:05.704Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T13:37:06.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:37:06.355Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:37:06.367Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:37:06.367Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:37:06.370Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-13T13:37:06.538Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: getaddrinfo ENOENT firebase.googleapis.com
+[debug] [2026-03-13T13:37:06.540Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2026-03-13T13:37:06.571Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\apiv2.js:282:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2026-03-13T13:46:20.310Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:46:20.328Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-13T13:46:20.329Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:46:20.329Z] Platform:      win32
+[debug] [2026-03-13T13:46:20.329Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:46:20.330Z] Time:          Fri Mar 13 2026 14:46:20 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:46:20.331Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T13:46:20.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:46:20.773Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:46:20.787Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:46:20.788Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:46:20.789Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-13T13:46:44.417Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: 
+[debug] [2026-03-13T13:46:44.418Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2026-03-13T13:46:49.431Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-13T13:48:33.182Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:48:33.190Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-13T13:48:33.192Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:48:33.192Z] Platform:      win32
+[debug] [2026-03-13T13:48:33.192Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:48:33.193Z] Time:          Fri Mar 13 2026 14:48:33 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:48:33.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T13:48:33.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:48:33.773Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:48:33.783Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:48:33.783Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:48:33.785Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-13T13:48:57.285Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: 
+[debug] [2026-03-13T13:48:57.286Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2026-03-13T13:49:02.305Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-13T13:50:45.128Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:50:45.137Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-13T13:50:45.139Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:50:45.139Z] Platform:      win32
+[debug] [2026-03-13T13:50:45.140Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:50:45.140Z] Time:          Fri Mar 13 2026 14:50:45 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:50:45.141Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T13:50:45.758Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:50:45.759Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:50:45.773Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:50:45.774Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:50:45.777Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-13T13:50:51.128Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:50:51.135Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-03-13T13:50:51.136Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:50:51.136Z] Platform:      win32
+[debug] [2026-03-13T13:50:51.137Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:50:51.137Z] Time:          Fri Mar 13 2026 14:50:51 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:50:51.138Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\leonid.mehandzhijski\OneDrive - A1 Telekom Austria AG\Desktop\Telesales Outbound\A1-Pauzi-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-03-13T13:51:13.687Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:51:13.689Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:51:13.693Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:51:13.694Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:51:13.697Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T13:51:37.346Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: 
+[debug] [2026-03-13T13:51:37.347Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi (original: request to https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi failed, reason: )
+[debug] [2026-03-13T13:51:42.360Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-13T13:52:53.770Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:52:53.775Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-13T13:52:53.776Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:52:53.776Z] Platform:      win32
+[debug] [2026-03-13T13:52:53.777Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:52:53.777Z] Time:          Fri Mar 13 2026 14:52:53 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:52:53.778Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T13:52:54.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:52:54.263Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:52:54.272Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:52:54.272Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:52:54.276Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-13T13:52:55.464Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-03-13T13:52:55.464Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌────────────────────────┬──────────────────────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name   │ Project ID                       │ Project Number │ Resource Location ID │
+├────────────────────────┼──────────────────────────────────┼────────────────┼──────────────────────┤
+│ telesalesoutboundpauzi │ telesalesoutboundpauzi (current) │ 1053409192858  │ [Not specified]      │
+└────────────────────────┴──────────────────────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 1 project(s) total.
+[debug] [2026-03-13T13:53:12.754Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:53:12.761Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-03-13T13:53:12.762Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:53:12.762Z] Platform:      win32
+[debug] [2026-03-13T13:53:12.762Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:53:12.763Z] Time:          Fri Mar 13 2026 14:53:12 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:53:12.764Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\leonid.mehandzhijski\OneDrive - A1 Telekom Austria AG\Desktop\Telesales Outbound\A1-Pauzi-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-03-13T13:54:24.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T13:54:24.344Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T13:54:24.346Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:54:24.347Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:54:24.350Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T13:54:25.435Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi 200
+[debug] [2026-03-13T13:54:25.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi {"projectId":"telesalesoutboundpauzi","projectNumber":"1053409192858","displayName":"telesalesoutboundpauzi","name":"projects/telesalesoutboundpauzi","resources":{"hostingSite":"telesalesoutboundpauzi"},"state":"ACTIVE","etag":"1_b64be3f3-6853-4870-bcc3-0286fb76d614"}
+[info] i  Using project telesalesoutboundpauzi (telesalesoutboundpauzi) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-03-13T13:56:14.229Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:56:14.230Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T13:56:14.230Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T13:56:14.702Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi 200
+[debug] [2026-03-13T13:56:14.702Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi {"projectId":"telesalesoutboundpauzi","projectNumber":"1053409192858","displayName":"telesalesoutboundpauzi","name":"projects/telesalesoutboundpauzi","resources":{"hostingSite":"telesalesoutboundpauzi"},"state":"ACTIVE","etag":"1_b64be3f3-6853-4870-bcc3-0286fb76d614"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2026-03-13T13:57:10.211Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2026-03-13T13:57:10.480Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2026-03-13T13:57:10.480Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.10.0","browserURL":"https://www.gstatic.com/firebasejs/12.10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.10.0/firebase.tgz"},"live":{"version":"12.10","browserURL":"https://www.gstatic.com/firebasejs/live/12.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.10/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.10.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.10.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.10.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.10.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.10.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.10.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore/lite.js","firestore/pipelines":"https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore/pipelines.js","firestore/lite/pipelines":"https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore/lite/pipelines.js","installations":"https://www.gstatic.com/firebasejs/12.10.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.10.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.10.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.10.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.10.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.10.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.10.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.10.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public\index.html 
+[info] 
+[info] +  Wrote configuration info to firebase.json 
+[info] +  Wrote project information to .firebaserc 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2026-03-13T13:57:24.001Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-13T13:59:44.441Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T13:59:44.454Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2026-03-13T13:59:44.455Z] CLI Version:   15.10.0
+[debug] [2026-03-13T13:59:44.455Z] Platform:      win32
+[debug] [2026-03-13T13:59:44.456Z] Node Version:  v22.15.1
+[debug] [2026-03-13T13:59:44.456Z] Time:          Fri Mar 13 2026 14:59:44 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T13:59:44.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T14:00:04.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T14:00:04.202Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T14:00:04.202Z] [iam] checking project telesalesoutboundpauzi for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-03-13T14:00:04.206Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:04.206Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:04.212Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions [none]
+[debug] [2026-03-13T14:00:04.212Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions  x-goog-user-project=telesalesoutboundpauzi
+[debug] [2026-03-13T14:00:04.212Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-13T14:00:05.451Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions 200
+[debug] [2026-03-13T14:00:05.452Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-13T14:00:05.453Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:05.453Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:05.454Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T14:00:05.998Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi 200
+[debug] [2026-03-13T14:00:05.999Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi {"projectId":"telesalesoutboundpauzi","projectNumber":"1053409192858","displayName":"telesalesoutboundpauzi","name":"projects/telesalesoutboundpauzi","resources":{"hostingSite":"telesalesoutboundpauzi"},"state":"ACTIVE","etag":"1_b64be3f3-6853-4870-bcc3-0286fb76d614"}
+[info] 
+[info] === Deploying to 'telesalesoutboundpauzi'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-03-13T14:00:06.020Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:06.021Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:06.021Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions [none]
+[debug] [2026-03-13T14:00:06.021Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-03-13T14:00:09.891Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions 200
+[debug] [2026-03-13T14:00:09.891Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[telesalesoutboundpauzi]: beginning deploy... 
+[info] i  hosting[telesalesoutboundpauzi]: found 13 files in public 
+[debug] [2026-03-13T14:00:27.110Z] [hosting] uploading with 200 concurrency
+[debug] [2026-03-13T14:00:27.186Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:27.186Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:27.189Z] [hosting] hash cache [cHVibGlj] stored for 13 files
+[debug] [2026-03-13T14:00:27.189Z] [hosting][hash queue][FINAL] {"max":17,"min":1,"avg":2.230769230769231,"active":0,"complete":13,"success":13,"errored":0,"retried":0,"total":13,"elapsed":29}
+[debug] [2026-03-13T14:00:27.190Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4:populateFiles [none]
+[debug] [2026-03-13T14:00:27.191Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4:populateFiles {"files":{"/terms.html":"d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/privacy.html":"2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1","/manifest.json":"7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841","/logo512.png":"212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d","/logo192.png":"79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0","/favicon.ico":"27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d","/404.html":"762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890","/teams/outline.png":"d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967","/teams/manifest.json":"dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5","/teams/index.html":"07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7","/teams/color.png":"d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967","/index.html":"d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476"}}
+[debug] [2026-03-13T14:00:28.308Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4:populateFiles 200
+[debug] [2026-03-13T14:00:28.309Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4:populateFiles {"uploadRequiredHashes":["dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5","7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1","d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967","79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0","d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476","212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d","07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7","d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019","27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d","762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files"}
+[debug] [2026-03-13T14:00:28.310Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.310Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.311Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.311Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.312Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.312Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.312Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.312Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.313Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.313Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.314Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.314Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.314Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.314Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.315Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.315Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.318Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.318Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.319Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.319Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.320Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.320Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.320Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.321Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:28.321Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5 [none]
+[debug] [2026-03-13T14:00:28.321Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5 [stream]
+[debug] [2026-03-13T14:00:28.323Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841 [none]
+[debug] [2026-03-13T14:00:28.323Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841 [stream]
+[debug] [2026-03-13T14:00:28.324Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2026-03-13T14:00:28.324Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2026-03-13T14:00:28.326Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1 [none]
+[debug] [2026-03-13T14:00:28.326Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1 [stream]
+[debug] [2026-03-13T14:00:28.328Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967 [none]
+[debug] [2026-03-13T14:00:28.329Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967 [stream]
+[debug] [2026-03-13T14:00:28.330Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0 [none]
+[debug] [2026-03-13T14:00:28.331Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0 [stream]
+[debug] [2026-03-13T14:00:28.332Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476 [none]
+[debug] [2026-03-13T14:00:28.332Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476 [stream]
+[debug] [2026-03-13T14:00:28.334Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d [none]
+[debug] [2026-03-13T14:00:28.334Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d [stream]
+[debug] [2026-03-13T14:00:28.336Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7 [none]
+[debug] [2026-03-13T14:00:28.336Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7 [stream]
+[debug] [2026-03-13T14:00:28.337Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019 [none]
+[debug] [2026-03-13T14:00:28.337Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019 [stream]
+[debug] [2026-03-13T14:00:28.338Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d [none]
+[debug] [2026-03-13T14:00:28.338Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d [stream]
+[debug] [2026-03-13T14:00:28.341Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890 [none]
+[debug] [2026-03-13T14:00:28.341Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890 [stream]
+[debug] [2026-03-13T14:00:28.345Z] [hosting][populate queue][FINAL] {"max":1136,"min":1136,"avg":1136,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1160}
+[debug] [2026-03-13T14:00:28.345Z] [hosting] uploads queued: 12
+[debug] [2026-03-13T14:00:29.336Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0 200
+[debug] [2026-03-13T14:00:29.336Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0 [stream]
+[debug] [2026-03-13T14:00:29.338Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d 200
+[debug] [2026-03-13T14:00:29.338Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d [stream]
+[debug] [2026-03-13T14:00:29.340Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019 200
+[debug] [2026-03-13T14:00:29.340Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019 [stream]
+[debug] [2026-03-13T14:00:29.342Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5 200
+[debug] [2026-03-13T14:00:29.342Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5 [stream]
+[debug] [2026-03-13T14:00:29.346Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967 200
+[debug] [2026-03-13T14:00:29.346Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967 [stream]
+[debug] [2026-03-13T14:00:29.349Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7 200
+[debug] [2026-03-13T14:00:29.350Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7 [stream]
+[debug] [2026-03-13T14:00:29.355Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1 200
+[debug] [2026-03-13T14:00:29.355Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1 [stream]
+[debug] [2026-03-13T14:00:29.357Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841 200
+[debug] [2026-03-13T14:00:29.357Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841 [stream]
+[debug] [2026-03-13T14:00:29.359Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d 200
+[debug] [2026-03-13T14:00:29.360Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d [stream]
+[debug] [2026-03-13T14:00:29.361Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2026-03-13T14:00:29.361Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2026-03-13T14:00:29.394Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890 200
+[debug] [2026-03-13T14:00:29.394Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890 [stream]
+[debug] [2026-03-13T14:00:29.441Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476 200
+[debug] [2026-03-13T14:00:29.441Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4/files/d2c30690d9cf46613c54fba36c6d9f23008911418fbbb1536d680af024f08476 [stream]
+[debug] [2026-03-13T14:00:29.441Z] [hosting][upload queue][FINAL] {"max":1127,"min":1022,"avg":1046.0000000000002,"active":0,"complete":12,"success":12,"errored":0,"retried":0,"total":12,"elapsed":1132}
+[info] +  hosting[telesalesoutboundpauzi]: file upload complete 
+[debug] [2026-03-13T14:00:29.443Z] [hosting] deploy completed after 2381ms
+[debug] [2026-03-13T14:00:29.444Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "telesalesoutboundpauzi"
+    },
+    "version": "projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4"
+  }
+]
+[info] i  hosting[telesalesoutboundpauzi]: finalizing version... 
+[debug] [2026-03-13T14:00:29.449Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:29.450Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:29.451Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4 updateMask=status%2Cconfig
+[debug] [2026-03-13T14:00:29.451Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2026-03-13T14:00:31.124Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4 200
+[debug] [2026-03-13T14:00:31.124Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4 {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:00:07.300645Z","createUser":{"email":"outboundtelesalespauzi@gmail.com"},"finalizeTime":"2026-03-13T14:00:30.886413Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com"}}
+[debug] [2026-03-13T14:00:31.124Z] [hosting] finalized version for telesalesoutboundpauzi:[object Object]
+[info] +  hosting[telesalesoutboundpauzi]: version finalized 
+[info] i  hosting[telesalesoutboundpauzi]: releasing new version... 
+[debug] [2026-03-13T14:00:31.127Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:31.127Z] Checked if tokens are valid: true, expires at: 1773412234899
+[debug] [2026-03-13T14:00:31.127Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases versionName=projects%2F1053409192858%2Fsites%2Ftelesalesoutboundpauzi%2Fversions%2Fa169be33d66a59d4
+[debug] [2026-03-13T14:00:31.127Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases {}
+[debug] [2026-03-13T14:00:32.546Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases 200
+[debug] [2026-03-13T14:00:32.547Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/channels/live/releases/1773410431406000","version":{"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:00:07.300645Z","createUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"},"finalizeTime":"2026-03-13T14:00:30.886413Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}},"type":"DEPLOY","releaseTime":"2026-03-13T14:00:31.406Z","releaseUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}}
+[debug] [2026-03-13T14:00:32.547Z] [hosting] release: {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/channels/live/releases/1773410431406000","version":{"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/a169be33d66a59d4","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:00:07.300645Z","createUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"},"finalizeTime":"2026-03-13T14:00:30.886413Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}},"type":"DEPLOY","releaseTime":"2026-03-13T14:00:31.406Z","releaseUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}}
+[info] +  hosting[telesalesoutboundpauzi]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/telesalesoutboundpauzi/overview
+[info] Hosting URL: https://telesalesoutboundpauzi.web.app
+[debug] [2026-03-13T14:00:42.579Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-13T14:17:40.802Z] ----------------------------------------------------------------------
+[debug] [2026-03-13T14:17:40.814Z] Command:       C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node.exe C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2026-03-13T14:17:40.815Z] CLI Version:   15.10.0
+[debug] [2026-03-13T14:17:40.815Z] Platform:      win32
+[debug] [2026-03-13T14:17:40.815Z] Node Version:  v22.15.1
+[debug] [2026-03-13T14:17:40.817Z] Time:          Fri Mar 13 2026 15:17:40 GMT+0100 (Средноевропско стандардно време)
+[debug] [2026-03-13T14:17:40.817Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-13T14:18:46.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-13T14:18:46.358Z] > authorizing via signed-in user (outboundtelesalespauzi@gmail.com)
+[debug] [2026-03-13T14:18:46.358Z] [iam] checking project telesalesoutboundpauzi for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-03-13T14:18:46.361Z] Checked if tokens are valid: false, expires at: 1773412234899
+[debug] [2026-03-13T14:18:46.361Z] Checked if tokens are valid: false, expires at: 1773412234899
+[debug] [2026-03-13T14:18:46.361Z] > refreshing access token with scopes: []
+[debug] [2026-03-13T14:18:46.366Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-13T14:18:46.366Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-13T14:18:46.897Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-13T14:18:46.897Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-13T14:18:46.969Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions [none]
+[debug] [2026-03-13T14:18:46.970Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions  x-goog-user-project=telesalesoutboundpauzi
+[debug] [2026-03-13T14:18:46.970Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-13T14:18:47.888Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions 200
+[debug] [2026-03-13T14:18:47.888Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telesalesoutboundpauzi:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-13T14:18:47.889Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:18:47.889Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:18:47.890Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi [none]
+[debug] [2026-03-13T14:18:48.828Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi 200
+[debug] [2026-03-13T14:18:48.828Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telesalesoutboundpauzi {"projectId":"telesalesoutboundpauzi","projectNumber":"1053409192858","displayName":"telesalesoutboundpauzi","name":"projects/telesalesoutboundpauzi","resources":{"hostingSite":"telesalesoutboundpauzi"},"state":"ACTIVE","etag":"1_b64be3f3-6853-4870-bcc3-0286fb76d614"}
+[info] 
+[info] === Deploying to 'telesalesoutboundpauzi'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-03-13T14:18:48.846Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:18:48.846Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:18:48.846Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions [none]
+[debug] [2026-03-13T14:18:48.846Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-03-13T14:18:51.092Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions 200
+[debug] [2026-03-13T14:18:51.092Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[telesalesoutboundpauzi]: beginning deploy... 
+[info] i  hosting[telesalesoutboundpauzi]: found 21 files in build 
+[debug] [2026-03-13T14:19:09.959Z] [hosting] uploading with 200 concurrency
+[debug] [2026-03-13T14:19:10.496Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:10.497Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:10.501Z] [hosting] hash cache [YnVpbGQ] stored for 21 files
+[debug] [2026-03-13T14:19:10.502Z] [hosting][hash queue][FINAL] {"max":491,"min":5,"avg":36.80952380952381,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":510}
+[debug] [2026-03-13T14:19:10.503Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01:populateFiles [none]
+[debug] [2026-03-13T14:19:10.504Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01:populateFiles {"files":{"/terms.html":"d8006abd0f146f1bae0cbb47b6f1ecebd2f09563dbbdbb6cad093ce44ec03019","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/privacy.html":"2db416e37335c76ed04ae23a4ad925043b299dcd27dd8631ea3d3685bc654ae1","/manifest.json":"7392010599336b2eaeed437b9d706daa3b9bf7906ed0ea0ec1b476e20ee9f841","/logo512.png":"212b102aa09e51b3b3e06647e81f7801a61333e171f6582e8124379aabccb41d","/logo192.png":"79e2b749561016bc8af300ea19f48347ceed3cb1a54f48ae456172eca45e08f0","/favicon.ico":"27edce7be5922cf0bef7d4136f69b5bfbdd5bf8c13c7b026f71187d41a00aa7d","/404.html":"762bf484ba67404bd1a3b181546ea28d60dfddf18e9dd4795d8d25bcf3c1a890","/teams/outline.png":"d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967","/teams/manifest.json":"dbb0dca06272e17119bc64a92f21341dab032873d6f6b2f809e1260c11d761d5","/teams/index.html":"07ab4a819e36703aeb71217cdc3f2c7f4580782f29478e763dda7487766c87f7","/teams/color.png":"d71c9c4e5246d45c15c00c011dd4e5e71094473607368b52e23a30c4e879f967","/index.html":"bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0","/asset-manifest.json":"c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7","/static/js/main.6f6bc0ef.js.LICENSE.txt":"c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200","/static/js/453.fd5aae64.chunk.js.map":"6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87","/static/js/453.fd5aae64.chunk.js":"d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04","/static/css/main.d38861b9.css":"a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece","/static/css/main.d38861b9.css.map":"686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6","/static/js/main.6f6bc0ef.js":"fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6","/static/js/main.6f6bc0ef.js.map":"1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3"}}
+[debug] [2026-03-13T14:19:11.637Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01:populateFiles 200
+[debug] [2026-03-13T14:19:11.637Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01:populateFiles {"uploadRequiredHashes":["c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200","a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece","bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0","686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6","d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04","1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3","c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7","6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87","fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files"}
+[debug] [2026-03-13T14:19:11.638Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.639Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.639Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.639Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.640Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.640Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.640Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.640Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.640Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.641Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.641Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.641Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.641Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.641Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.642Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.642Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.643Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.643Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:11.644Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200 [none]
+[debug] [2026-03-13T14:19:11.644Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200 [stream]
+[debug] [2026-03-13T14:19:11.648Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece [none]
+[debug] [2026-03-13T14:19:11.648Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece [stream]
+[debug] [2026-03-13T14:19:11.649Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0 [none]
+[debug] [2026-03-13T14:19:11.649Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0 [stream]
+[debug] [2026-03-13T14:19:11.653Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6 [none]
+[debug] [2026-03-13T14:19:11.653Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6 [stream]
+[debug] [2026-03-13T14:19:11.656Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04 [none]
+[debug] [2026-03-13T14:19:11.656Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04 [stream]
+[debug] [2026-03-13T14:19:11.658Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3 [none]
+[debug] [2026-03-13T14:19:11.658Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3 [stream]
+[debug] [2026-03-13T14:19:11.659Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7 [none]
+[debug] [2026-03-13T14:19:11.659Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7 [stream]
+[debug] [2026-03-13T14:19:11.660Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87 [none]
+[debug] [2026-03-13T14:19:11.660Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87 [stream]
+[debug] [2026-03-13T14:19:11.663Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6 [none]
+[debug] [2026-03-13T14:19:11.663Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6 [stream]
+[debug] [2026-03-13T14:19:11.666Z] [hosting][populate queue][FINAL] {"max":1147,"min":1147,"avg":1147,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1171}
+[debug] [2026-03-13T14:19:11.666Z] [hosting] uploads queued: 9
+[debug] [2026-03-13T14:19:12.532Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200 200
+[debug] [2026-03-13T14:19:12.532Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c211f27f98c36608f9d21550557bfb02e28437fa6fe361248c09c6b31dbbe200 [stream]
+[debug] [2026-03-13T14:19:12.539Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece 200
+[debug] [2026-03-13T14:19:12.539Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/a8deaaee25ed8656300be9ffdc80cc169b259531de620c341b898ebba3f3cece [stream]
+[debug] [2026-03-13T14:19:12.594Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6 200
+[debug] [2026-03-13T14:19:12.594Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/686a88ff552474ffe817ed1d2e99d654fb5861b114a0aab9c8f520d5648744f6 [stream]
+[debug] [2026-03-13T14:19:12.682Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04 200
+[debug] [2026-03-13T14:19:12.682Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/d607efc3c26be7c3bd68a85a23b85abf2dec57296b9c4452ea51bdd1b9b85a04 [stream]
+[debug] [2026-03-13T14:19:12.697Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0 200
+[debug] [2026-03-13T14:19:12.697Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/bcedcd7977dc14bc2805fad918ea92ed346f2ab465af18ebe9cadfb99df5d2b0 [stream]
+[debug] [2026-03-13T14:19:12.783Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7 200
+[debug] [2026-03-13T14:19:12.784Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/c8257e3daad539087e28b02fc109cab1246951c6b6ddad92d25fc43b7b3582d7 [stream]
+[debug] [2026-03-13T14:19:12.806Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87 200
+[debug] [2026-03-13T14:19:12.807Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/6b7ee31c832afee3848bf3f9372f8ff2343a31b725f9e4404296986c4de94b87 [stream]
+[debug] [2026-03-13T14:19:12.979Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6 200
+[debug] [2026-03-13T14:19:12.979Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/fcbee50a3c3f17b963d1c76d126c59a70ae3be1d43c23a0d060af757fe7fa6a6 [stream]
+[debug] [2026-03-13T14:19:13.740Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3 200
+[debug] [2026-03-13T14:19:13.740Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01/files/1221720a2432ef63a333d4c480f2172b21c60352ca3a8429c1b36e3d5d36deb3 [stream]
+[debug] [2026-03-13T14:19:13.741Z] [hosting][upload queue][FINAL] {"max":2099,"min":894,"avg":1177.2222222222222,"active":0,"complete":9,"success":9,"errored":0,"retried":0,"total":9,"elapsed":2103}
+[info] +  hosting[telesalesoutboundpauzi]: file upload complete 
+[debug] [2026-03-13T14:19:13.743Z] [hosting] deploy completed after 3824ms
+[debug] [2026-03-13T14:19:13.743Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "telesalesoutboundpauzi"
+    },
+    "version": "projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01"
+  }
+]
+[info] i  hosting[telesalesoutboundpauzi]: finalizing version... 
+[debug] [2026-03-13T14:19:13.749Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:13.749Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:13.751Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01 updateMask=status%2Cconfig
+[debug] [2026-03-13T14:19:13.752Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2026-03-13T14:19:15.872Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01 200
+[debug] [2026-03-13T14:19:15.872Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01 {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:18:49.719666Z","createUser":{"email":"outboundtelesalespauzi@gmail.com"},"finalizeTime":"2026-03-13T14:19:15.664555Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com"}}
+[debug] [2026-03-13T14:19:15.872Z] [hosting] finalized version for telesalesoutboundpauzi:[object Object]
+[info] +  hosting[telesalesoutboundpauzi]: version finalized 
+[info] i  hosting[telesalesoutboundpauzi]: releasing new version... 
+[debug] [2026-03-13T14:19:15.874Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:15.875Z] Checked if tokens are valid: true, expires at: 1773415125897
+[debug] [2026-03-13T14:19:15.875Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases versionName=projects%2F1053409192858%2Fsites%2Ftelesalesoutboundpauzi%2Fversions%2Fe2c3d5d4cfbecd01
+[debug] [2026-03-13T14:19:15.875Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases {}
+[debug] [2026-03-13T14:19:17.470Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases 200
+[debug] [2026-03-13T14:19:17.470Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/telesalesoutboundpauzi/channels/live/releases {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/channels/live/releases/1773411556331000","version":{"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:18:49.719666Z","createUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"},"finalizeTime":"2026-03-13T14:19:15.664555Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}},"type":"DEPLOY","releaseTime":"2026-03-13T14:19:16.331Z","releaseUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}}
+[debug] [2026-03-13T14:19:17.471Z] [hosting] release: {"name":"projects/1053409192858/sites/telesalesoutboundpauzi/channels/live/releases/1773411556331000","version":{"name":"projects/1053409192858/sites/telesalesoutboundpauzi/versions/e2c3d5d4cfbecd01","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-13T14:18:49.719666Z","createUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"},"finalizeTime":"2026-03-13T14:19:15.664555Z","finalizeUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}},"type":"DEPLOY","releaseTime":"2026-03-13T14:19:16.331Z","releaseUser":{"email":"outboundtelesalespauzi@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocLo1lPa8WS5FGAKZ_afhbRUnC0On9YGAEd4fHK1yrvR77lREg=mo"}}
+[info] +  hosting[telesalesoutboundpauzi]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/telesalesoutboundpauzi/overview
+[info] Hosting URL: https://telesalesoutboundpauzi.web.app
+[debug] [2026-03-13T14:19:27.496Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\leonid.mehandzhijski\Downloads\node-v22.15.1-win-x64\node-v22.15.1-win-x64\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.

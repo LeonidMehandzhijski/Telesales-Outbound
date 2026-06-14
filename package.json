@@ -1,0 +1,72 @@
+{
+  "name": "pauzioutboundtelesales",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PauziTelesales - Team Break Management System for Microsoft Teams",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@fluentui/react": "^8.106.4",
+    "@microsoft/teams-js": "^2.19.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^14.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/react": "^18.3.3",
+    "@types/react-beautiful-dnd": "^13.1.5",
+    "@types/react-dom": "^18.3.0",
+    "ajv": "^8.17.1",
+    "date-fns": "^2.30.0",
+    "firebase": "^10.14.1",
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "tailwindcss -i ./src/index.css -o ./src/tailwind.css",
+    "watch:css": "tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
+    "deploy": "npm run build:css && firebase deploy",
+    "build:teams": "mkdirp teams-app-package && copyfiles -f public/teams/manifest.json teams-app-package/ && copyfiles -f public/teams/color.png teams-app-package/ && copyfiles -f public/teams/outline.png teams-app-package/ && bestzip teams-app-package.zip teams-app-package/*",
+    "init:firestore": "ts-node scripts/initFirestore.ts",
+    "seed:agents": "ts-node scripts/seedAgents.ts",
+    "deploy:rules": "firebase deploy --only firestore:rules"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.18.0",
+    "autoprefixer": "^10.4.17",
+    "bestzip": "^2.2.1",
+    "copyfiles": "^2.4.1",
+    "mkdirp": "^3.0.1",
+    "postcss": "^8.4.35",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.1.6",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
